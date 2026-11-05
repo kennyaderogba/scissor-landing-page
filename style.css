@@ -239,7 +239,8 @@ footer ul { list-style: none; margin-bottom: 14px; }
 footer li { line-height: 1.4; }
 footer a { color: #273746; text-decoration: none; font-size: 12px; }
 footer .social-links { display: flex; gap: 15px; margin-top: 18px; }
-footer .social-links a { color: #141414; font-size: 17px; font-weight: 700; }
+footer .social-links a { display: inline-flex; width: 18px; height: 18px; align-items: center; justify-content: center; color: #141414; }
+footer .social-links svg { display: block; width: 17px; height: 17px; fill: currentColor; }
 footer > p { grid-column: 2 / -1; justify-self: end; margin-top: 8px; font-size: 11px; }
 
 @media (max-width: 800px) {
